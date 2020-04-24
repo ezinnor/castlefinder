@@ -2,7 +2,7 @@ function initMap() {
   var broadway = {
     info:
       '<strong>Chipotle on Broadway</strong><br>\
-    	5224 N Broadway St<br> Chicago, IL 60640<br>\
+        <img src="images/tuglag.jpg" alt="tuglug fort"><br>\
     	<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>',
     lat: 41.976816,
     long: -87.659916,
