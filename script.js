@@ -1,35 +1,34 @@
 function initMap() {
-  var broadway = {
+  var mehrangarh = {
     info:
-      '<strong>Chipotle on Broadway</strong><br>\
+      '<strong>Mehrangarh Fort</strong><br>\
         <img src="images/tuglag.jpg" alt="tuglug fort"><br>\
-    	<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>',
+    	<a href="https://goo.gl/maps/jKNEDz4SyyH2" text-align="center">More info</a>',
     lat: 41.976816,
     long: -87.659916,
   }
 
-  var belmont = {
+  var amer = {
     info:
-      '<strong>Chipotle on Belmont</strong><br>\
-    	1025 W Belmont Ave<br> Chicago, IL 60657<br>\
+      '<strong>Amer Fort</strong><br>\
     	<a href="https://goo.gl/maps/PHfsWTvgKa92">Get Directions</a>',
     lat: 41.93967,
     long: -87.655167,
   }
 
-  var sheridan = {
+  var chittor = {
     info:
-      '<strong>Chipotle on Sheridan</strong><br>\r\
-    	6600 N Sheridan Rd<br> Chicago, IL 60626<br>\
-    	<a href="https://goo.gl/maps/QGUrqZPsYp92">Get Directions</a>',
+      '<strong>Chittor Fort</strong><br>\
+      <img src="images/chittor.jpg" alt="chittor fort" width="450" height="299"><br>\
+    	<a href="https://goo.gl/maps/QGUrqZPsYp92" text-align="center">Info</a>',
     lat: 42.002707,
     long: -87.661236,
   }
 
   var locations = [
-    [broadway.info, broadway.lat, broadway.long, 0],
-    [belmont.info, belmont.lat, belmont.long, 1],
-    [sheridan.info, sheridan.lat, sheridan.long, 2],
+    [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 0],
+    [amer.info, amer.lat, amer.long, 1],
+    [chittor.info, chittor.lat, chittor.long, 2],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -40,6 +39,7 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow({})
 
   var marker, i
+  var clicked = false;
 
   for (i = 0; i < locations.length; i++) {
     marker = new google.maps.Marker({
@@ -51,11 +51,43 @@ function initMap() {
       marker,
       'click',
       (function(marker, i) {
+        
         return function() {
+          clicked = true;
           infowindow.setContent(locations[i][0])
           infowindow.open(map, marker)
         }
       })(marker, i)
     )
+    google.maps.event.addListener(
+      marker,
+      'mouseover',
+      (function(marker, i){
+        
+        return function(){
+          if(!clicked){
+          infowindow.setContent(locations[i][0])
+          infowindow.open(map, marker)
+          }
+        }
+      
+      })(marker, i)
+    )
+    google.maps.event.addListener(
+      marker,
+      'mouseout',
+      (function(marker, i){
+        
+        return function(){
+          if(!clicked){
+          infowindow.close()
+          }
+        }
+      
+      })(marker, i)
+    )
+    google.maps.event.addListener(infowindow, 'closeclick', function(){
+      clicked = false;
+    })
   }
 }
