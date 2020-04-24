@@ -2,18 +2,18 @@ function initMap() {
   var mehrangarh = {
     info:
       '<strong>Mehrangarh Fort</strong><br>\
-        <img src="images/tuglag.jpg" alt="tuglug fort"><br>\
+        <img src="images/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
     	<a href="https://goo.gl/maps/jKNEDz4SyyH2" text-align="center">More info</a>',
-    lat: 41.976816,
-    long: -87.659916,
+    lat: 26.297681,
+    long: 73.018350,
   }
 
   var amer = {
     info:
       '<strong>Amer Fort</strong><br>\
     	<a href="https://goo.gl/maps/PHfsWTvgKa92">Get Directions</a>',
-    lat: 41.93967,
-    long: -87.655167,
+    lat: 26.984940,
+    long: 75.850854,
   }
 
   var chittor = {
@@ -21,8 +21,8 @@ function initMap() {
       '<strong>Chittor Fort</strong><br>\
       <img src="images/chittor.jpg" alt="chittor fort" width="450" height="299"><br>\
     	<a href="https://goo.gl/maps/QGUrqZPsYp92" text-align="center">Info</a>',
-    lat: 42.002707,
-    long: -87.661236,
+    lat: 24.886962,
+    long: 74.644761,
   }
 
   var locations = [
@@ -32,8 +32,8 @@ function initMap() {
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 13,
-    center: new google.maps.LatLng(41.976816, -87.659916),
+    zoom: 6,
+    center: new google.maps.LatLng(25.168030, 75.851617),
   })
 
   var infowindow = new google.maps.InfoWindow({})
