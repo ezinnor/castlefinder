@@ -19,8 +19,8 @@ function initMap() {
   var chittor = {
     info:
       '<strong>Chittor Fort</strong><br>\
-      <img src="images/chittor.jpg" alt="chittor fort" width="450" height="299"><br>\
-    	<a href="https://goo.gl/maps/QGUrqZPsYp92" text-align="center">Info</a>',
+      <img src="images/chittor/chittor.jpg" alt="chittor fort" width="450" height="299"><br>\
+    	<a href="pages/chittor.html" target="_blank" text-align="center">More Info and Pics</a>',
     lat: 24.886962,
     long: 74.644761,
   }
