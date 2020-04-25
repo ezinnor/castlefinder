@@ -2,8 +2,8 @@ function initMap() {
   var mehrangarh = {
     info:
       '<strong>Mehrangarh Fort</strong><br>\
-        <img src="images/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
-    	<a href="https://goo.gl/maps/jKNEDz4SyyH2" text-align="center">More info</a>',
+        <img src="images/mehrangarh/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
+    	<a href="pages/mehrangarh.html" text-align="center">More info and Pics</a>',
     lat: 26.297681,
     long: 73.018350,
   }
@@ -24,7 +24,25 @@ function initMap() {
     lat: 24.886962,
     long: 74.644761,
   }
+  var mehrangarh = {
+    info:
+      '<strong>Mehrangarh Fort</strong><br>\
+        <img src="images/mehrangarh/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
+    	<a href="pages/mehrangarh.html" text-align="center">More info and Pics</a>',
+    lat: 26.297681,
+    long: 73.018350,
+  }
 
+
+
+
+
+
+
+
+
+
+  // Put locations above this line.-----------------------------------------------------------------------
   var locations = [
     [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 0],
     [amer.info, amer.lat, amer.long, 1],
