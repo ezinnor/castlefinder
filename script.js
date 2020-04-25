@@ -1,7 +1,7 @@
 function initMap() {
   var mehrangarh = {
     info:
-      '<strong>Mehrangarh Fort</strong><br>\
+      '<strong><b>Mehrangarh Fort<b></strong><br>\
         <img src="images/mehrangarh/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
     	<a href="pages/mehrangarh.html" text-align="center">More info and Pics</a>',
     lat: 26.297681,
@@ -10,7 +10,7 @@ function initMap() {
 
   var amer = {
     info:
-      '<strong>Amer Fort</strong><br>\
+      '<strong><b>Amer Fort<b></strong><br>\
     	<a href="https://goo.gl/maps/PHfsWTvgKa92">Get Directions</a>',
     lat: 26.984940,
     long: 75.850854,
@@ -18,21 +18,69 @@ function initMap() {
 
   var chittor = {
     info:
-      '<strong>Chittor Fort</strong><br>\
+      '<strong><b>Chittor Fort<b></strong><br>\
       <img src="images/chittor/chittor.jpg" alt="chittor fort" width="450" height="299"><br>\
     	<a href="pages/chittor.html" target="_blank" text-align="center">More Info and Pics</a>',
     lat: 24.886962,
     long: 74.644761,
   }
-  var mehrangarh = {
+  var agrafort = {
     info:
-      '<strong>Mehrangarh Fort</strong><br>\
-        <img src="images/mehrangarh/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
-    	<a href="pages/mehrangarh.html" text-align="center">More info and Pics</a>',
-    lat: 26.297681,
-    long: 73.018350,
+      '<strong><b>Agra Fort<b></strong><br>\
+        <img src="images/agrafort/agra-fort-in-agra.jpg"  width="450" height="300"><br>\
+    	<a href="#" text-align="center">More info and Pics</a>',
+    lat: 27.180315, 
+    long: 78.021684,
   }
-
+  var bhains = {
+    info:
+      '<strong><b>Bhainsroadgarh Fort<b></strong><br>\
+        <img src="images/bhains/1.jpg" width="450" height="337"><br>\
+    	<a href="#" text-align="center">More info and Pics</a>',
+    lat: 24.962775, 
+    long: 75.55388,
+  }
+  var bhan = {
+    info:
+      '<strong><b>Bhangarh Fort<b></strong><br>\
+        <img src="images/Bhangarh/bhangarh.jpg" a width="450" height="338"><br>\
+    	<a href="#" text-align="center">More info and Pics</a>',
+    lat: 27.096353, 
+    long: 76.285855,
+  }
+  var ajab = {
+    info:
+      '<strong><b>Ajabgarh Fort<b></strong><br>\
+        <img src="images/Ajabgarh/ajabgarh.png" width="500" height="256"><br>\
+    	<a href="#" text-align="center">More info and Pics</a>',
+    lat: 27.179991, 
+    long: 76.287283,
+  }
+  var sonar = {
+    info:
+      '<strong><b>Sonar Quila/Golden Fort<b></strong><br>\
+        <img src="images/sonargarh/1.jpg" width="600" height="260"><br>\
+    	<a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.912709, 
+    long: 70.913186,
+  }
+  var kumbhal = {
+    info:
+      '<strong><b>Kumbhalgarh Fort<b></strong><br>\
+        <img src="images/kumbhalgarh/1.jpg" width="500" height="169"><br>\
+        <p>The largest fort in Asia with walls going 32km</p>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 25.149404, 
+    long: 73.580293,
+  }
+  var taj = {
+    info:
+      '<strong><b>Taj Mahal<b></strong><br>\
+        <img src="images/taj/1.jpg" width="450" height="338"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 27.174969, 
+    long: 78.042134,
+  }
 
 
 
@@ -47,6 +95,13 @@ function initMap() {
     [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 0],
     [amer.info, amer.lat, amer.long, 1],
     [chittor.info, chittor.lat, chittor.long, 2],
+    [agrafort.info, agrafort.lat, agrafort.long, 3],
+    [bhains.info, bhains.lat, bhains.long, 4],
+    [bhan.info, bhan.lat, bhan.long, 5],
+    [ajab.info, ajab.lat, ajab.long, 6],
+    [sonar.info, sonar.lat, sonar.long, 7],
+    [kumbhal.info, kumbhal.lat, kumbhal.long, 8],
+    [taj.info, taj.lat, taj.long, 9],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -64,7 +119,7 @@ function initMap() {
       position: new google.maps.LatLng(locations[i][1], locations[i][2]),
       map: map,
     })
-
+    
     google.maps.event.addListener(
       marker,
       'click',
