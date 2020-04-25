@@ -81,6 +81,14 @@ function initMap() {
     lat: 27.174969, 
     long: 78.042134,
   }
+  var derawar = {
+    info:
+      '<strong><b>Derawar Fort<b></strong><br>\
+        <img src="images/derawar/1.jpg" width="450" height="300"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 28.767857, 
+    long: 71.334025,
+  }
 
 
 
@@ -102,6 +110,7 @@ function initMap() {
     [sonar.info, sonar.lat, sonar.long, 7],
     [kumbhal.info, kumbhal.lat, kumbhal.long, 8],
     [taj.info, taj.lat, taj.long, 9],
+    [derawar.info, derawar.lat, derawar.long, 10],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
