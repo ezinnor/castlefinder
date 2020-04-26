@@ -89,6 +89,71 @@ function initMap() {
     lat: 28.767857, 
     long: 71.334025,
   }
+  var indra = {
+    info:
+      '<strong><b>Indragarh Fort<b></strong><br>\
+        <img src="images/indragarh/1.jpg" width="450" height="308"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 25.726481, 
+    long: 76.192793,
+  }
+  var amer = {
+    info:
+      '<strong><b>Amer Fort<b></strong><br>\
+        <img src="images/amer/amer.jpg" width="500" height="362"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.98494,  
+    long: 75.850854,
+  }
+  var jai = {
+    info:
+      '<strong><b>Jaigarh Fort<b></strong><br>\
+        <img src="images/jairgarh/1.jpg" width="500" height="413"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.985099,   
+    long: 75.845587,
+  }
+  var jhansi = {
+    info:
+      '<strong><b>Jhansi Fort<b></strong><br>\
+        <img src="images/jhansi/1.jpg" width="500" height="332"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 25.457739, 
+    long: 78.575613,
+  }
+  var gagron = {
+    info:
+      '<strong><b>Gagron Fort<b></strong><br>\
+        <img src="images/gagron/343.PNG" width="600" height="268"><br>\
+        <p>A water fort, situated between two rivers.</p><a href="#" text-align="center">More info and Pics</a>',    
+    lat: 24.628156, 
+    long: 76.185806,
+  }
+  var janjira = {
+    info:
+      '<strong><b>Janjira Fort<b></strong><br>\
+        <img src="images/janjira/1.jpg" width="600" height="387"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 18.299444, 
+    long: 72.964444,
+  }
+  var kota = {
+    info:
+      '<strong><b>Kota Garh Palace<b></strong><br>\
+        <img src="images/kota/1.jpg" width="500" height="334"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 25.174803, 
+    long: 75.829741,
+  }
+  var ummed = {
+    info:
+      '<strong><b>Ummed Bhavan Palace<b></strong><br>\
+        <img src="images/kota/1.jpg" width="500" height="334"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.280982, 
+    long: 73.047296,
+  }
+
 
 
 
@@ -111,6 +176,14 @@ function initMap() {
     [kumbhal.info, kumbhal.lat, kumbhal.long, 8],
     [taj.info, taj.lat, taj.long, 9],
     [derawar.info, derawar.lat, derawar.long, 10],
+    [indra.info, indra.lat, indra.long, 11],
+    [amer.info, amer.lat, amer.long, 12],
+    [jai.info, jai.lat, jai.long, 13],
+    [jhansi.info, jhansi.lat, jhansi.long, 14],
+    [gagron.info, gagron.lat, gagron.long, 15],
+    [janjira.info, janjira.lat, janjira.long, 16],
+    [kota.info, kota.lat, kota.long, 17],
+    [ummed.info, ummed.lat, ummed.long, 18],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
