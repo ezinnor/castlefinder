@@ -226,6 +226,14 @@ function initMap() {
     lat: 26.0418877, 
     long: 69.1226937,
   }
+  var ramkot = {
+    info:
+      '<strong><b>Ramkot Fort<b></strong><br>\
+        <img src="images/ramkot/1.jpg" width="450" height="301"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 33.22283195, 
+    long: 73.64135933,
+  }
 
 
   
@@ -269,6 +277,7 @@ function initMap() {
     [lahore.info, lahore.lat, lahore.long, 25],
     [ranikot.info, ranikot.lat, ranikot.long, 26],
     [naukot.info, naukot.lat, naukot.long, 27],
+    [ramkot.info, ramkot.lat, ramkot.long, 28],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
