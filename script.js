@@ -125,7 +125,8 @@ function initMap() {
     info:
       '<strong><b>Gagron Fort<b></strong><br>\
         <img src="images/gagron/343.PNG" width="600" height="268"><br>\
-        <p>A water fort, situated between two rivers.</p><a href="#" text-align="center">More info and Pics</a>',    
+        <p>A water fort, situated between two rivers.</p>\
+        <a href="#" text-align="center">More info and Pics</a>',    
     lat: 24.628156, 
     long: 76.185806,
   }
@@ -185,6 +186,48 @@ function initMap() {
     lat: 27.210652, 
     long: 77.521001,
   }
+  var rohtas = {
+    info:
+      '<strong><b>Rohtas Fort<b></strong><br>\
+        <img src="images/rohtas/1.png" width="450" height="337"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 32.968763, 
+    long: 73.575375,
+  }
+  var attock = {
+    info:
+      '<strong><b>Attock Fort<b></strong><br>\
+        <img src="images/attock/attock.png" width="450" height="255"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 33.890838, 
+    long: 72.2379303,
+  }
+  var lahore = {
+    info:
+      '<strong><b>Lahore Fort<b></strong><br>\
+        <img src="images/lahor/1.jpg" width="450" height="330"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 31.58803305, 
+    long: 74.31495649,
+  }
+  var ranikot = {
+    info:
+      '<strong><b>Ranikot Fort<b></strong><br>\
+        <img src="images/ranikot/1.jpg" width="450" height="300"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 25.896916, 
+    long: 67.9018366,
+  }
+  var naukot = {
+    info:
+      '<strong><b>Naukot Fort<b></strong><br>\
+        <img src="images/naukot/1.jpg" width="500" height="333"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.0418877, 
+    long: 69.1226937,
+  }
+
+
   
 
 
@@ -221,11 +264,19 @@ function initMap() {
     [udaipurCity.info, udaipurCity.lat, udaipurCity.long, 20],
     [lohagarh.info, lohagarh.lat, lohagarh.long, 21],
     [laxmiVilasBharatpur.info, laxmiVilasBharatpur.lat, laxmiVilasBharatpur.long, 22],
+    [rohtas.info, rohtas.lat, rohtas.long, 23],
+    [attock.info, attock.lat, attock.long, 24],
+    [lahore.info, lahore.lat, lahore.long, 25],
+    [ranikot.info, ranikot.lat, ranikot.long, 26],
+    [naukot.info, naukot.lat, naukot.long, 27],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
     center: new google.maps.LatLng(25.168030, 75.851617),
+    options: {
+      gestureHandling: 'greedy'
+    },
   })
 
   var infowindow = new google.maps.InfoWindow({})
