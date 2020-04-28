@@ -148,11 +148,44 @@ function initMap() {
   var ummed = {
     info:
       '<strong><b>Ummed Bhavan Palace<b></strong><br>\
-        <img src="images/kota/1.jpg" width="500" height="334"><br>\
+        <img src="images/ummed/1.jpg" width="500" height="334"><br>\
         <a href="#" text-align="center">More info and Pics</a>',
     lat: 26.280982, 
     long: 73.047296,
   }
+  var bundi = {
+    info:
+      '<strong><b>Bundi Palace<b></strong><br>\
+        <img src="images/bundi/1.jpg" width="450" height="302"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 25.448882, 
+    long: 75.635548,
+  }
+  var udaipurCity = {
+    info:
+      '<strong><b>Udaipur City Palace<b></strong><br>\
+        <img src="images/udaipur/1.jpg" width="450" height="265"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 24.576378, 
+    long: 73.683511,
+  }
+  var lohagarh = {
+    info:
+      '<strong><b>Lohagarh Fort<b></strong><br>\
+        <img src="images/lohagarh/1.jpg" width="450" height="338"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 27.220403, 
+    long: 77.495487,
+  }
+  var laxmiVilasBharatpur = {
+    info:
+      '<strong><b>Laxmi Vilas Palace<b></strong><br>\
+        <img src="images/laxmiVilasBharatpur/1.jpg" width="550" height="353"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 27.210652, 
+    long: 77.521001,
+  }
+  
 
 
 
@@ -184,6 +217,10 @@ function initMap() {
     [janjira.info, janjira.lat, janjira.long, 16],
     [kota.info, kota.lat, kota.long, 17],
     [ummed.info, ummed.lat, ummed.long, 18],
+    [bundi.info, bundi.lat, bundi.long, 19],
+    [udaipurCity.info, udaipurCity.lat, udaipurCity.long, 20],
+    [lohagarh.info, lohagarh.lat, lohagarh.long, 21],
+    [laxmiVilasBharatpur.info, laxmiVilasBharatpur.lat, laxmiVilasBharatpur.long, 22],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
