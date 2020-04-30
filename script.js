@@ -234,6 +234,39 @@ function initMap() {
     lat: 33.22283195, 
     long: 73.64135933,
   }
+  var manasija = {
+    info:
+      '<strong><b>Manasija Fort/Monastry<b></strong><br>\
+        <img src="images/manasija/1.jpg" width="450" height="373"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 44.10084575, 
+    long: 21.46981416,
+  }
+  var palitana = {
+    info:
+      '<strong><b>Palitana Fort/Temple<b></strong><br>\
+        <img src="images/palitana/1.jpg" width="500" height="334"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 21.42896755, 
+    long: 71.74244868,
+  }
+  var anchuthengu = {
+    info:
+      '<strong><b>Anchuthengu Fort<b></strong><br>\
+        <img src="images/anchuthengu/1.jpg" width="500" height="311"><br>\
+        <p>A signalling post built by EIC for ships coming form England.</p>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 8.66266125, 
+    long: 76.76481302,
+  }
+  var kalinjer = {
+    info:
+      '<strong><b>Kalinjar Fort<b></strong><br>\
+        <img src="images/kalinger/1.jpg"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 24.9992785, 
+    long: 80.48524455,
+  }
 
 
   
@@ -278,10 +311,14 @@ function initMap() {
     [ranikot.info, ranikot.lat, ranikot.long, 26],
     [naukot.info, naukot.lat, naukot.long, 27],
     [ramkot.info, ramkot.lat, ramkot.long, 28],
+    [manasija.info, manasija.lat, manasija.long, 29],
+    [palitana.info, palitana.lat, palitana.long, 30],
+    [anchuthengu.info, anchuthengu.lat, anchuthengu.long, 31],
+    [kalinjer.info, kalinjer.lat, kalinjer.long, 32],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 6,
+    zoom: 4,
     center: new google.maps.LatLng(25.168030, 75.851617),
     options: {
       gestureHandling: 'greedy'
