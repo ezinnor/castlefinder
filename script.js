@@ -267,6 +267,30 @@ function initMap() {
     lat: 24.9992785, 
     long: 80.48524455,
   }
+  var cooch = {
+    info:
+      '<strong><b>Cooch Behar Palace/Victor Jubliee Palace<b></strong><br>\
+        <img src="images/cooch/1.jpg" width="500" height="310"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.32692207, 
+    long: 89.43856001,
+  }
+  var palamu = {
+    info:
+      '<strong><b>Palamu Fort<b></strong><br>\
+        <img src="images/palamu/1.jpg" width="450" height="334"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 23.895149, 
+    long: 84.229778,
+  }
+  var rohtasbihar = {
+    info:
+      '<strong><b>Rohtas Fort<b></strong><br>\
+        <img src="images/rohtasbihar/1.jpg" width="450" height="306"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 24.623466, 
+    long: 83.917737,
+  }
 
 
   
@@ -315,6 +339,9 @@ function initMap() {
     [palitana.info, palitana.lat, palitana.long, 30],
     [anchuthengu.info, anchuthengu.lat, anchuthengu.long, 31],
     [kalinjer.info, kalinjer.lat, kalinjer.long, 32],
+    [cooch.info, cooch.lat, cooch.long, 33],
+    [palamu.info, palamu.lat, palamu.long, 34],
+    [rohtasbihar.info, rohtasbihar.lat, rohtasbihar.long, 35],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
