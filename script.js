@@ -270,7 +270,7 @@ function initMap() {
   var cooch = {
     info:
       '<strong><b>Cooch Behar Palace/Victor Jubliee Palace<b></strong><br>\
-        <img src="images/cooch/1.jpg" width="500" height="310"><br>\
+        <img src="images/cooch/1.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">More info and Pics</a>',
     lat: 26.32692207, 
     long: 89.43856001,
@@ -278,7 +278,7 @@ function initMap() {
   var palamu = {
     info:
       '<strong><b>Palamu Fort<b></strong><br>\
-        <img src="images/palamu/1.jpg" width="450" height="334"><br>\
+        <img src="images/palamu/1.jpg" width="450" height="auto"><br>\
         <a href="#" text-align="center">More info and Pics</a>',
     lat: 23.895149, 
     long: 84.229778,
@@ -291,7 +291,54 @@ function initMap() {
     lat: 24.623466, 
     long: 83.917737,
   }
-
+  var bahu = {
+    info:
+      '<strong><b>Bahu Fort<b></strong><br>\
+        <img src="images/bahu/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 32.7266326, 
+    long: 74.8800349,
+  }
+  var hari = {
+    info:
+      '<strong><b>Hari Parbat Fort<b></strong><br>\
+        <img src="images/hariParbat/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 34.111713, 
+    long: 74.8199466,
+  }
+  var akhnoor = {
+    info:
+      '<strong><b>Akhnoor Fort<b></strong><br>\
+        <img src="images/akhnoor/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 32.8965732, 
+    long: 74.74078378,
+  }
+  var bhimgarh = {
+    info:
+      '<strong><b>Bhimgarh Fort<b></strong><br>\
+        <img src="images/bhimgarh/2.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 33.07729905, 
+    long: 74.83380178,
+  }
+  var ramnagarjammu = {
+    info:
+      '<strong><b>Ramnagar Fort, Jammu<b></strong><br>\
+        <img src="images/ramnagarjammu/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 32.807470, 
+    long: 75.314052,
+  }
+  var guaita = {
+    info:
+      '<strong><b>Guaita Fort/Towers<b></strong><br>\
+        <img src="images/guaita/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 43.9355254,
+    long: 12.447503,
+  }
 
   
 
@@ -306,7 +353,7 @@ function initMap() {
 
   // Put locations above this line.-----------------------------------------------------------------------
   var locations = [
-    [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 0],
+    [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 'http://www.worldheritageoutlook.iucn.org/resources/heritage_site_map_pin.png', 0],
     [amer.info, amer.lat, amer.long, 1],
     [chittor.info, chittor.lat, chittor.long, 2],
     [agrafort.info, agrafort.lat, agrafort.long, 3],
@@ -342,6 +389,13 @@ function initMap() {
     [cooch.info, cooch.lat, cooch.long, 33],
     [palamu.info, palamu.lat, palamu.long, 34],
     [rohtasbihar.info, rohtasbihar.lat, rohtasbihar.long, 35],
+    [bahu.info, bahu.lat, bahu.long, 36],
+    [hari.info, hari.lat, hari.long, 37],
+    [akhnoor.info, akhnoor.lat, akhnoor.long, 38],
+    [bhimgarh.info, bhimgarh.lat, bhimgarh.long, 39],
+    [ramnagarjammu.info, ramnagarjammu.lat, ramnagarjammu.long, 40],
+    [guaita.info, guaita.lat, guaita.long, 41],
+
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -354,13 +408,16 @@ function initMap() {
 
   var infowindow = new google.maps.InfoWindow({})
 
-  var marker, i
+  var marker, i;
   var clicked = false;
 
   for (i = 0; i < locations.length; i++) {
     marker = new google.maps.Marker({
       position: new google.maps.LatLng(locations[i][1], locations[i][2]),
       map: map,
+      icon: {
+        url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+      },
     })
     
     google.maps.event.addListener(
