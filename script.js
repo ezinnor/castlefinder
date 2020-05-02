@@ -339,9 +339,73 @@ function initMap() {
     lat: 43.9355254,
     long: 12.447503,
   }
+  var caerphilly = {
+    info:
+      '<strong><b>Caerphilly Fort<b></strong><br>\
+        <img src="images/caerphilly/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 51.57603605,
+    long: -3.22033525,
+  }
+  var tughlagh = {
+    info:
+      '<strong><b>Tughlagabad Fort<b></strong><br>\
+        <img src="images/tughlaga/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 28.50918231,
+    long: 77.261374,
+  }
+  var panhala = {
+    info:
+      '<strong><b>Panhala Fort<b></strong><br>\
+        <img src="images/panhala/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 16.8088963,
+    long: 74.1082278,
+  }
+  var budhergad = {
+    info:
+      '<strong><b>Bhudergad Fort<b></strong><br>\
+        <a href="#" text-align="center">A Hill fort.</a>',
+    lat: 16.251141,
+    long: 74.142351,
+  }
+  var vishalgad = {
+    info:
+      '<strong><b>Vishalgad Fort<b></strong><br>\
+        <img src="images/vishalgad/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 16.904921,
+    long: 73.742638,
+  }
+  var belmonte = {
+    info:
+      '<strong><b>Belmonte Castle<b></strong><br>\
+        <img src="images/belmonte/1.jpg" width="500" height="auto"><br>\
+        <p>Built in 1456</p>',
+    lat: 39.55793275,
+    long: -2.69695178,
+  }
+  var asirgarh = {
+    info:
+      '<strong><b>Asirgarh Fort<b></strong><br>\
+        <img src="images/asirgarh/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 21.4706493,
+    long: 76.29385739,
+  }
+  var mandsaur = {
+    info:
+      '<strong><b>Mandsaur Fort<b></strong><br>\
+        <img src="images/dashpur/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 24.062351,
+    long: 75.077822,
+  }
+
 
   
-
+   
 
 
 
@@ -395,6 +459,14 @@ function initMap() {
     [bhimgarh.info, bhimgarh.lat, bhimgarh.long, 39],
     [ramnagarjammu.info, ramnagarjammu.lat, ramnagarjammu.long, 40],
     [guaita.info, guaita.lat, guaita.long, 41],
+    [caerphilly.info, caerphilly.lat, caerphilly.long, 42],
+    [tughlagh.info, tughlagh.lat, tughlagh.long, 43],
+    [panhala.info, panhala.lat, panhala.long, 44],
+    [budhergad.info, budhergad.lat, budhergad.long, 45],
+    [vishalgad.info, vishalgad.lat, vishalgad.long, 46],
+    [belmonte.info, belmonte.lat, belmonte.long, 47],
+    [asirgarh.info, asirgarh.lat, asirgarh.long, 48],
+    [mandsaur.info, mandsaur.lat, mandsaur.long, 49],
 
   ]
 
