@@ -425,7 +425,7 @@ function initMap() {
         <a href="#" text-align="center">More info and Pics</a>',
     lat: 26.7480841,
     long: 78.6370865,
-  }
+  } 
   var sabalgarh = {
     info:
       '<strong><b>Sabalgarh Fort<b></strong><br>\
@@ -433,9 +433,56 @@ function initMap() {
         <a href="https://phototravelings.blogspot.com/2013/06/aerial-photography-around-land-of-pan.html" text-align="center">Credits</a>',
     lat: 26.2409379,
     long: 77.4046229,
+  } 
+  var narwar = {
+    info:
+      '<strong><b>Narwar Fort<b></strong><br>\
+        <img src="images/narwar/1.jpg" width="450" height="auto"><br>\
+        <a href="https://kevinstandagephotography.wordpress.com/2019/04/16/narwar-fort-gwalior-madhya-pradesh/" text-align="center">Credits</a>',
+    lat: 25.6436497,
+    long: 77.9021749,
   }
-  
-   
+
+  var orchha = {
+    info:
+      '<strong><b>Orchha Fort<b></strong><br>\
+        <img src="images/orchha/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.350675,
+    long: 78.6427026,
+  } 
+  var kundar = {
+    info:
+      '<strong><b>GarhKundar Fort<b></strong><br>\
+        <img src="images/garhkundar/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.4815002,
+    long: 78.8985816,
+  }
+  var devgarh = {
+    info:
+      '<strong><b>Devgarh Fort<b></strong><br>\
+        <img src="images/devgarh/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.0831998,
+    long: 78.5769122,
+  } 
+  var baldeogarh = {
+    info:
+      '<strong><b>Baldeogarh Fort<b></strong><br>\
+        <img src="images/baldeogarh/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.7543291,
+    long: 79.0664722,
+  } 
+  var gulganj = {
+    info:
+      '<strong><b>Gulganj Fort<b></strong><br>\
+        <img src="images/gulganj/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.698936,
+    long: 79.3749427,
+  } 
 
 
 
@@ -500,7 +547,13 @@ function initMap() {
     [mandrayal.info, mandrayal.lat, mandrayal.long, 50],
     [gohad.info, gohad.lat, gohad.long, 51],
     [ater.info, ater.lat, ater.long, 52],
-    [sabalgarh.info, sabalgarh.lat, sabalgarh.long, 53]
+    [sabalgarh.info, sabalgarh.lat, sabalgarh.long, 53],
+    [narwar.info, narwar.lat, narwar.long, 54],
+    [orchha.info, orchha.lat, orchha.long, 55],
+    [kundar.info, kundar.lat, kundar.long, 56],
+    [devgarh.info, devgarh.lat, devgarh.long, 57],
+    [baldeogarh.info, baldeogarh.lat, baldeogarh.long, 58],
+    [gulganj.info, gulganj.lat, gulganj.long, 59],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
