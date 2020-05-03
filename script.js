@@ -402,8 +402,38 @@ function initMap() {
     lat: 24.062351,
     long: 75.077822,
   }
-
-
+  var mandrayal = {
+    info:
+      '<strong><b>Mandrayal Fort<b></strong><br>\
+        <img src="images/mandrayal/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.2993797,
+    long: 77.2372757,
+  } 
+  var gohad = {
+    info:
+      '<strong><b>Gohad Fort<b></strong><br>\
+        <img src="images/gohad/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.4255775,
+    long: 78.444941,
+  } 
+  var ater = {
+    info:
+      '<strong><b>Ater Fort<b></strong><br>\
+        <img src="images/ater/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">More info and Pics</a>',
+    lat: 26.7480841,
+    long: 78.6370865,
+  }
+  var sabalgarh = {
+    info:
+      '<strong><b>Sabalgarh Fort<b></strong><br>\
+        <img src="images/sabalgarh/1.jpg" width="450" height="auto"><br>\
+        <a href="https://phototravelings.blogspot.com/2013/06/aerial-photography-around-land-of-pan.html" text-align="center">Credits</a>',
+    lat: 26.2409379,
+    long: 77.4046229,
+  }
   
    
 
@@ -467,7 +497,10 @@ function initMap() {
     [belmonte.info, belmonte.lat, belmonte.long, 47],
     [asirgarh.info, asirgarh.lat, asirgarh.long, 48],
     [mandsaur.info, mandsaur.lat, mandsaur.long, 49],
-
+    [mandrayal.info, mandrayal.lat, mandrayal.long, 50],
+    [gohad.info, gohad.lat, gohad.long, 51],
+    [ater.info, ater.lat, ater.long, 52],
+    [sabalgarh.info, sabalgarh.lat, sabalgarh.long, 53]
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
