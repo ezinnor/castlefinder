@@ -2,7 +2,7 @@ function initMap() {
   var mehrangarh = {
     info:
       '<strong><b>Mehrangarh Fort<b></strong><br>\
-        <img src="images/mehrangarh/mehrangarh.jpg" alt="tuglug fort" width="350" height="300"><br>\
+        <img src="images/mehrangarh/mehrangarh.jpg" alt="tuglug fort" width="450" height="auto"><br>\
     	<a href="pages/mehrangarh.html" text-align="center">More info and Pics</a>',
     lat: 26.297681,
     long: 73.018350,
@@ -483,7 +483,62 @@ function initMap() {
     lat: 24.698936,
     long: 79.3749427,
   } 
-
+  var gourjhamar = {
+    info:
+      '<strong><b>Gourjhamar Fort<b></strong><br>\
+        <img src="images/gourjhamar/1.png" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 23.5244671,
+    long: 78.9390622,
+  } 
+  var khurai = {
+    info:
+      '<strong><b>Khurai Fort<b></strong><br>\
+        <img src="images/khurai/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.0400284,
+    long: 78.3292809,
+  } 
+  var madanmahal = {
+    info:
+      '<strong><b>Madan Mahal Fort<b></strong><br>\
+        <img src="images/madanmahal/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 23.1484693,
+    long: 79.9016654,
+  } 
+  var chanderi = {
+    info:
+      '<strong><b>Chanderi Fort<b></strong><br>\
+        <img src="images/chanderi/2.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.7096576,
+    long: 78.1394076,
+  } 
+  var talbehat = {
+    info:
+      '<strong><b>Talbehat Fort<b></strong><br>\
+        <img src="images/talbehat/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.038818,
+    long: 78.4357968,
+  } 
+  var tikamgarh = {
+    info:
+      '<strong><b>Tikamgarh Fort<b></strong><br>\
+        <img src="images/tikamgarh/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.743134,
+    long: 78.8350791,
+  } 
+  var sanodha = {
+    info:
+      '<strong><b>Sanodha Fort<b></strong><br>\
+        <img src="images/sanodha/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 23.8878377,
+    long: 78.9089269,
+  } 
 
 
 
@@ -494,7 +549,7 @@ function initMap() {
 
   // Put locations above this line.-----------------------------------------------------------------------
   var locations = [
-    [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 'http://www.worldheritageoutlook.iucn.org/resources/heritage_site_map_pin.png', 0],
+    [ummed.info, ummed.lat, ummed.long, 0],
     [amer.info, amer.lat, amer.long, 1],
     [chittor.info, chittor.lat, chittor.long, 2],
     [agrafort.info, agrafort.lat, agrafort.long, 3],
@@ -512,7 +567,7 @@ function initMap() {
     [gagron.info, gagron.lat, gagron.long, 15],
     [janjira.info, janjira.lat, janjira.long, 16],
     [kota.info, kota.lat, kota.long, 17],
-    [ummed.info, ummed.lat, ummed.long, 18],
+    [mehrangarh.info, mehrangarh.lat, mehrangarh.long, 18],
     [bundi.info, bundi.lat, bundi.long, 19],
     [udaipurCity.info, udaipurCity.lat, udaipurCity.long, 20],
     [lohagarh.info, lohagarh.lat, lohagarh.long, 21],
@@ -554,6 +609,13 @@ function initMap() {
     [devgarh.info, devgarh.lat, devgarh.long, 57],
     [baldeogarh.info, baldeogarh.lat, baldeogarh.long, 58],
     [gulganj.info, gulganj.lat, gulganj.long, 59],
+    [gourjhamar.info, gourjhamar.lat, gourjhamar.long, 60],
+    [khurai.info, khurai.lat, khurai.long, 61],
+    [madanmahal.info, madanmahal.lat, madanmahal.long, 62],
+    [chanderi.info, chanderi.lat, chanderi.long, 63],
+    [talbehat.info, talbehat.lat, talbehat.long, 64],
+    [tikamgarh.info, tikamgarh.lat, tikamgarh.long, 65],
+    [sanodha.info, sanodha.lat, sanodha.long, 66],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
