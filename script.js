@@ -539,6 +539,14 @@ function initMap() {
     lat: 23.8878377,
     long: 78.9089269,
   } 
+  var hinglajgarh = {
+    info:
+      '<strong><b>Hinglajgarh Fort<b></strong><br>\
+        <img src="images/hinglajgarh/1.jpg" width="450" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.6672734,
+    long: 75.7865486,
+  } 
 
 
 
@@ -616,6 +624,7 @@ function initMap() {
     [talbehat.info, talbehat.lat, talbehat.long, 64],
     [tikamgarh.info, tikamgarh.lat, tikamgarh.long, 65],
     [sanodha.info, sanodha.lat, sanodha.long, 66],
+	[hinglajgarh.info, hinglajgarh.lat, hinglajgarh.long, 67],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
