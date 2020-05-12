@@ -542,11 +542,28 @@ function initMap() {
   var hinglajgarh = {
     info:
       '<strong><b>Hinglajgarh Fort<b></strong><br>\
-        <img src="images/hinglajgarh/1.jpg" width="450" height="auto"><br>\
+        <img src="images/hinglajgarh/1.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
     lat: 24.6672734,
     long: 75.7865486,
   } 
+  var pokaran = {
+    info:
+      '<strong><b>Pokaran Fort<b></strong><br>\
+        <img src="images/pokran/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.9202874,
+    long: 71.9153589,
+  }
+  var mohangarh = {
+    info:
+      '<strong><b>Mohangarh Fort<b></strong><br>\
+        <img src="images/mohangarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.2163667,
+    long: 70.9375243,
+  }
+
 
 
 
@@ -625,6 +642,8 @@ function initMap() {
     [tikamgarh.info, tikamgarh.lat, tikamgarh.long, 65],
     [sanodha.info, sanodha.lat, sanodha.long, 66],
 	[hinglajgarh.info, hinglajgarh.lat, hinglajgarh.long, 67],
+	[pokaran.info, pokaran.lat, pokaran.long, 68],
+	[mohangarh.info, mohangarh.lat, mohangarh.long, 69],
   ]
 
   var map = new google.maps.Map(document.getElementById('map'), {
