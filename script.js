@@ -563,6 +563,22 @@ function initMap() {
     lat: 27.2163667,
     long: 70.9375243,
   }
+  var khatoli = {
+    info:
+      '<strong><b>Khatoli Fort<b></strong><br>\
+        <img src="images/khatoli/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.6831763,
+    long: 76.4775483,
+  }
+  var khandar = {
+    info:
+      '<strong><b>Khandar Fort<b></strong><br>\
+        <img src="images/Khandar/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.6831763,
+    long: 76.4775483,
+  }
 
 
 
@@ -641,10 +657,11 @@ function initMap() {
     [talbehat.info, talbehat.lat, talbehat.long, 64],
     [tikamgarh.info, tikamgarh.lat, tikamgarh.long, 65],
     [sanodha.info, sanodha.lat, sanodha.long, 66],
-	[hinglajgarh.info, hinglajgarh.lat, hinglajgarh.long, 67],
-	[pokaran.info, pokaran.lat, pokaran.long, 68],
-	[mohangarh.info, mohangarh.lat, mohangarh.long, 69],
-  ]
+	  [hinglajgarh.info, hinglajgarh.lat, hinglajgarh.long, 67],
+	  [pokaran.info, pokaran.lat, pokaran.long, 68],
+	  [mohangarh.info, mohangarh.lat, mohangarh.long, 69],
+    [khatoli.info, khatoli.lat, khatoli.long, 70],
+    [khandar.info, khandar.lat, khandar.long, 71],
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
