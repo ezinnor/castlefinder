@@ -579,7 +579,38 @@ function initMap() {
     lat: 25.6831763,
     long: 76.4775483,
   }
-
+  var ranthambore = {
+    info:
+      '<strong><b>Ranthambhore Fort<b></strong><br>\
+        <img src="images/ranthambhore/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.0212605,
+    long: 76.4520804,
+  }
+  var redfort = {
+    info:
+      '<strong><b>Red Fort<b></strong><br>\
+        <img src="images/redfort/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 28.6561592,
+    long: 77.2410203,
+  }
+  var oldfort = {
+    info:
+      '<strong><b>Old/Purana Fort<b></strong><br>\
+        <img src="images/oldfort/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 28.6095744,
+    long: 77.2437371,
+  }
+  var adilabad = {
+    info:
+      '<strong><b>Adilabad Fort<b></strong><br>\
+        <img src="images/adilabad/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 28.5055868,
+    long: 77.2676568,
+  }
 
 
 
@@ -662,6 +693,10 @@ function initMap() {
 	  [mohangarh.info, mohangarh.lat, mohangarh.long, 69],
     [khatoli.info, khatoli.lat, khatoli.long, 70],
     [khandar.info, khandar.lat, khandar.long, 71],
+    [ranthambore.info, ranthambore.lat, ranthambore.long, 72],
+    [redfort.info, redfort.lat, redfort.long, 73],
+    [oldfort.info, oldfort.lat, oldfort.long, 74],
+    [adilabad.info, adilabad.lat, adilabad.long, 75],
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
