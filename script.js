@@ -611,6 +611,22 @@ function initMap() {
     lat: 28.5055868,
     long: 77.2676568,
   }
+  var kakod = {
+    info:
+      '<strong><b>Kakod Fort<b></strong><br>\
+        <img src="images/kakod/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.0235108,
+    long: 75.9218932,
+  }
+  var shiwar = {
+    info:
+      '<strong><b>Shiwar Fort<b></strong><br>\
+        <img src="images/shiwar/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.1962365,
+    long: 76.028847,
+  }
 
 
 
@@ -697,6 +713,8 @@ function initMap() {
     [redfort.info, redfort.lat, redfort.long, 73],
     [oldfort.info, oldfort.lat, oldfort.long, 74],
     [adilabad.info, adilabad.lat, adilabad.long, 75],
+    [kakod.info, kakod.lat, kakod.long, 76],
+    [shiwar.info, shiwar.lat, shiwar.long, 78],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
