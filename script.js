@@ -698,6 +698,7 @@ function initMap() {
     [oldfort.info, oldfort.lat, oldfort.long, 74],
     [adilabad.info, adilabad.lat, adilabad.long, 75],
 
+  ]
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
     center: new google.maps.LatLng(25.168030, 75.851617),
