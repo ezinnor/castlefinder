@@ -627,8 +627,62 @@ function initMap() {
     lat: 26.1962365,
     long: 76.028847,
   }
-
-
+  var bonli = {
+    info:
+      '<strong><b>Bonli Fort<b></strong><br>\
+        <img src="#" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.3346075,
+    long: 76.2209855,
+  }
+  var mandalgarh = {
+    info:
+      '<strong><b>Mandalgarh Fort<b></strong><br>\
+        <img src="images/mandalgarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.2068407,
+    long: 75.0931607,
+  }
+  var taragarh = {
+    info:
+      '<strong><b>Taragarh Fort<b></strong><br>\
+        <img src="images/taragarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.444728,
+    long: 74.6189324,
+  }
+  var kishangarh = {
+    info:
+      '<strong><b>Kishangarh Fort<b></strong><br>\
+        <img src="images/kishangarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.5710251,
+    long: 74.8745223,
+  }
+  var bichoon = {
+    info:
+      '<strong><b>Bichoon Fort<b></strong><br>\
+        <img src="images/bichoon/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.8087172,
+    long: 75.351786,
+  }
+  var kuchaman = {
+    info:
+      '<strong><b>Kuchaman Fort<b></strong><br>\
+        <img src="images/kuchaman/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.153942,
+    long: 74.857664,
+  }
+  var bhakri = {
+    info:
+      '<strong><b>Bhakri Fort<b></strong><br>\
+        <img src="images/bhakri/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.7830372,
+    long: 74.5134079,
+  }
 
 
 
@@ -715,6 +769,13 @@ function initMap() {
     [adilabad.info, adilabad.lat, adilabad.long, 75],
     [kakod.info, kakod.lat, kakod.long, 76],
     [shiwar.info, shiwar.lat, shiwar.long, 78],
+    [bonli.info, bonli.lat, bonli.long, 79],
+    [mandalgarh.info, mandalgarh.lat, mandalgarh.long, 80],
+    [taragarh.info, taragarh.lat, taragarh.long, 81],
+    [kishangarh.info, kishangarh.lat, kishangarh.long, 82],
+    [bichoon.info, bichoon.lat, bichoon.long, 83],
+    [kuchaman.info, kuchaman.lat, kuchaman.long, 84],
+    [bhakri.info, bhakri.lat, bhakri.long, 85],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
