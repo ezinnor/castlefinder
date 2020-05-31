@@ -683,6 +683,17 @@ function initMap() {
     lat: 26.7830372,
     long: 74.5134079,
   }
+  var dhar = {
+    info:
+      '<strong><b>Dhar Fort<b></strong><br>\
+        <img src="images/dhar/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 22.6010286,
+    long: 75.3041151,
+  }
+
+  
+
 
 
 
@@ -776,6 +787,7 @@ function initMap() {
     [bichoon.info, bichoon.lat, bichoon.long, 83],
     [kuchaman.info, kuchaman.lat, kuchaman.long, 84],
     [bhakri.info, bhakri.lat, bhakri.long, 85],
+    [dhar.info, dhar.lat, dhar.long, 86],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
