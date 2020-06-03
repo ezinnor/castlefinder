@@ -574,7 +574,7 @@ function initMap() {
   var khandar = {
     info:
       '<strong><b>Khandar Fort<b></strong><br>\
-        <img src="images/Khandar/1.jpg" width="500" height="auto"><br>\
+        <img src="images/khandar/1.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
     lat: 25.6831763,
     long: 76.4775483,
@@ -691,6 +691,30 @@ function initMap() {
     lat: 22.6010286,
     long: 75.3041151,
   }
+  var gugor = {
+    info:
+      '<strong><b>Gugor Fort<b></strong><br>\
+        <img src="images/gugor/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.7375756,
+    long: 76.8564207,
+  }
+  var bajrangarh = {
+    info:
+      '<strong><b>Bajrangarh Fort<b></strong><br>\
+        <img src="images/bajrangarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 24.5850169,
+    long: 77.2945818,
+  }
+  var kajligarh = {
+    info:
+      '<strong><b>Kajligarh Fort<b></strong><br>\
+        <img src="images/kajligarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 22.5336105,
+    long: 75.9489476,
+  }
 
   
 
@@ -788,6 +812,9 @@ function initMap() {
     [kuchaman.info, kuchaman.lat, kuchaman.long, 84],
     [bhakri.info, bhakri.lat, bhakri.long, 85],
     [dhar.info, dhar.lat, dhar.long, 86],
+    [gugor.info, gugor.lat, gugor.long, 87],
+    [bajrangarh.info, bajrangarh.lat, bajrangarh.long, 88], 
+    [kajligarh.info, kajligarh.lat, kajligarh.long, 89],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
