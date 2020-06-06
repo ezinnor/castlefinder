@@ -568,16 +568,16 @@ function initMap() {
       '<strong><b>Khatoli Fort<b></strong><br>\
         <img src="images/khatoli/1.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
-    lat: 25.6831763,
-    long: 76.4775483,
+    lat: 25.6831811,
+    long: 76.4753596,
   }
   var khandar = {
     info:
       '<strong><b>Khandar Fort<b></strong><br>\
         <img src="images/khandar/1.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
-    lat: 25.6831763,
-    long: 76.4775483,
+    lat: 26.0227435,
+    long: 76.6070094,
   }
   var ranthambore = {
     info:
@@ -715,6 +715,54 @@ function initMap() {
     lat: 22.5336105,
     long: 75.9489476,
   }
+  var devgarh = {
+    info:
+      '<strong><b>Devgarh Fort<b></strong><br>\
+        <img src="images/devgarhsikar/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.5319963,
+    long: 75.060134,
+  }
+  var raghunathgarh = {
+    info:
+      '<strong><b>Raghunathgarh Fort<b></strong><br>\
+        <img src="images/raghunathgarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.6637881,
+    long: 75.3618912,
+  }
+  var laxmangarh = {
+    info:
+      '<strong><b>Laxmangarh Fort<b></strong><br>\
+        <img src="images/laxmangarh/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.5319963,
+    long: 75.060134,
+  }
+  var rajshivendra = {
+    info:
+      '<strong><b>Raj Shivendra Fort<b></strong><br>\
+        <img src="images/rajshivendra/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.6047135,
+    long: 75.4142681,
+  }
+  var saladipura = {
+    info:
+      '<strong><b>Saladipura Fort<b></strong><br>\
+        <img src="images/saladipura/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.6455351,
+    long: 75.5218827,
+  }
+  var danta = {
+    info:
+      '<strong><b>Danta Fort<b></strong><br>\
+        <img src="images/danta/1.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 27.2951122,
+    long: 75.1870712,
+  }
 
   
 
@@ -815,6 +863,12 @@ function initMap() {
     [gugor.info, gugor.lat, gugor.long, 87],
     [bajrangarh.info, bajrangarh.lat, bajrangarh.long, 88], 
     [kajligarh.info, kajligarh.lat, kajligarh.long, 89],
+    [devgarh.info, devgarh.lat, devgarh.long, 90],
+    [raghunathgarh.info, raghunathgarh.lat, raghunathgarh.long, 91],
+    [laxmangarh.info, laxmangarh.lat, laxmangarh.long, 92],
+    [rajshivendra.info, rajshivendra.lat, rajshivendra.long, 93],
+    [saladipura.info, saladipura.lat, saladipura.long, 94],
+    [danta.info, danta.lat, danta.long, 95],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
