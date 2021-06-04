@@ -59,4 +59,4 @@ kubala fort - 18.6341495, 72.8642843
 kanthkot fort - 23.48412, 70.461824
 roha fort - 23.199939, 69.268527
 newai fort - 26.360102, 75.920512
-
+added a new line
