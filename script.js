@@ -763,6 +763,14 @@ function initMap() {
     lat: 27.2951122,
     long: 75.1870712,
   }
+  var barwara = {
+    info:
+      '<strong><b>Barwara Fort<b></strong><br>\
+        <img src="images/barwara/barwara.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 25.1921283, 
+    long: 73.2906314,
+  }
 
   
 
@@ -869,6 +877,7 @@ function initMap() {
     [rajshivendra.info, rajshivendra.lat, rajshivendra.long, 93],
     [saladipura.info, saladipura.lat, saladipura.long, 94],
     [danta.info, danta.lat, danta.long, 95],
+    [barwara.info, barwara.lat, barwara.long, 96],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
