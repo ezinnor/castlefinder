@@ -779,7 +779,6 @@ function initMap() {
     lat: 26.138855, 
     long: 76.234275,
   }
-  }
   var gingee = {
     info:
       '<strong><b>Gingee Fort<b></strong><br>\
@@ -787,7 +786,6 @@ function initMap() {
         <p>Built around 1190AD by Konar dynasty.</p>',
     lat: 12.250561, 
     long: 79.400970,
-  }
   }
   var vellor = {
     info:
