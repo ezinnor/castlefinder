@@ -783,9 +783,17 @@ function initMap() {
     info:
       '<strong><b>Vellore Fort<b></strong><br>\
         <img src="images/vellor/1.JPG" width="600" height="auto"><br>\
-        <a href="#" text-align="center">Credits</a>',
+        <p>Built in 16th century by Vijaynagar Kings.</p>',
     lat: 12.920650, 
     long: 79.129650,
+  }
+  var gingee = {
+    info:
+      '<strong><b>Gingee Fort<b></strong><br>\
+        <img src="images/gingee/1.JPG" width="600" height="auto"><br>\
+        <p>Built in 1190AD by Konar dynasty.</p>',
+    lat: 12.250560, 
+    long: 79.400970,
   }
 
 
@@ -892,7 +900,8 @@ function initMap() {
     [danta.info, danta.lat, danta.long, 95],
     [barwara.info, barwara.lat, barwara.long, 96],
     [bhagwatgarh.info, bhagwatgarh.lat, bhagwatgarh.long, 97],
-    [vellore.info, vellore.lat, vellore.long, 98]
+    [vellore.info, vellore.lat, vellore.long, 98],
+    [gingee.info, gingee.lat, gingee.long, 99]
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
