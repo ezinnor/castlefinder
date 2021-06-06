@@ -784,7 +784,7 @@ function initMap() {
     info:
       '<strong><b>Gingee Fort<b></strong><br>\
         <img src="images/gingee/1.jpg" width="600" height="auto"><br>\
-        <a href="#" text-align="center">Credits</a>',
+        <p>Built around 1190AD by Konar dynasty.</p>',
     lat: 12.250561, 
     long: 79.400970,
   }
@@ -793,7 +793,7 @@ function initMap() {
     info:
       '<strong><b>Vellor Fort<b></strong><br>\
         <img src="images/vellor/1.jpg" width="600" height="auto"><br>\
-        <a href="#" text-align="center">Credits</a>',
+        <p>Built in 16th century by Vijaynagar Kings</p>',
     lat: 12.920650, 
     long: 79.129650,
   }
