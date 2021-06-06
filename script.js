@@ -782,7 +782,7 @@ function initMap() {
   var vellore = {
     info:
       '<strong><b>Vellore Fort<b></strong><br>\
-        <img src="images/vellor/1.JPG" width="600" height="auto"><br>\
+        <img src="images/vellor/1.JPG" width="500" height="auto"><br>\
         <p>Built in 16th century by Vijaynagar Kings.</p>',
     lat: 12.920650, 
     long: 79.129650,
@@ -790,15 +790,22 @@ function initMap() {
   var gingee = {
     info:
       '<strong><b>Gingee Fort<b></strong><br>\
-        <img src="images/gingee/1.JPG" width="600" height="auto"><br>\
+        <img src="images/gingee/1.JPG" width="500" height="auto"><br>\
         <p>Built in 1190AD by Konar dynasty.</p>',
     lat: 12.250560, 
     long: 79.400970,
   }
+  var ranjankudi = {
+    info:
+      '<strong><b>Ranjunkudi Fort<b></strong><br>\
+        <img src="images/rajnakudi/1.JPG" width="500" height="auto"><br>\
+        <p>Built in 1190AD by Konar dynasty.</p>',
+    lat: 11.346000, 
+    long: 78.939000,
+  }
 
 
-
-
+ 
 
 
   // Put locations above this line.-----------------------------------------------------------------------
@@ -901,7 +908,8 @@ function initMap() {
     [barwara.info, barwara.lat, barwara.long, 96],
     [bhagwatgarh.info, bhagwatgarh.lat, bhagwatgarh.long, 97],
     [vellore.info, vellore.lat, vellore.long, 98],
-    [gingee.info, gingee.lat, gingee.long, 99]
+    [gingee.info, gingee.lat, gingee.long, 99],
+    [ranjankudi.info, ranjankudi.lat, ranjankudi.long, 100]
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
