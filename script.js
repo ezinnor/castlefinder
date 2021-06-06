@@ -766,7 +766,7 @@ function initMap() {
   var barwara = {
     info:
       '<strong><b>Barwara Fort<b></strong><br>\
-        <img src="images/barwara/barwara.jpg" width="500" height="auto"><br>\
+        <img src="images/barwara/1.jpg" width="600" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
     lat: 26.0493236,
     long: 76.1577446,
@@ -774,7 +774,7 @@ function initMap() {
   var bhagwatgarh = {
     info:
       '<strong><b>Bhagwatgarh Fort<b></strong><br>\
-        <img src="images/barwara/barwara.jpg" width="500" height="auto"><br>\
+        <img src="images/barwara/1.jpg" width="600" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
     lat: 26.138855, 
     long: 76.234275,
