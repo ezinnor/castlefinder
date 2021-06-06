@@ -771,7 +771,14 @@ function initMap() {
     lat: 26.0493236,
     long: 76.1577446,
   }
-
+  var bhagwatgarh = {
+    info:
+      '<strong><b>Bhagwatgarh Fort<b></strong><br>\
+        <img src="images/barwara/barwara.jpg" width="500" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 26.138855, 
+    long: 76.234275,
+  }
   
 
 
@@ -878,6 +885,7 @@ function initMap() {
     [saladipura.info, saladipura.lat, saladipura.long, 94],
     [danta.info, danta.lat, danta.long, 95],
     [barwara.info, barwara.lat, barwara.long, 96],
+    [bhagwatgarh.info, bhagwatgarh.lat, bhagwatgarh.long, 97],
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
