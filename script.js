@@ -779,8 +779,24 @@ function initMap() {
     lat: 26.138855, 
     long: 76.234275,
   }
-  
-
+  }
+  var gingee = {
+    info:
+      '<strong><b>Gingee Fort<b></strong><br>\
+        <img src="images/gingee/1.jpg" width="600" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 12.250561, 
+    long: 79.400970,
+  }
+  }
+  var vellor = {
+    info:
+      '<strong><b>Vellor Fort<b></strong><br>\
+        <img src="images/vellor/1.jpg" width="600" height="auto"><br>\
+        <a href="#" text-align="center">Credits</a>',
+    lat: 12.920650, 
+    long: 79.129650,
+  }
 
 
 
@@ -885,7 +901,9 @@ function initMap() {
     [saladipura.info, saladipura.lat, saladipura.long, 94],
     [danta.info, danta.lat, danta.long, 95],
     [barwara.info, barwara.lat, barwara.long, 96],
-    [bhagwatgarh.info, bhagwatgarh.lat, bhagwatgarh.long, 97]
+    [bhagwatgarh.info, bhagwatgarh.lat, bhagwatgarh.long, 97],
+    [gingee.info, gingee.lat, gingee.long, 98],
+    [vellor.info, vellor.lat, vellor.long, 99]
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
