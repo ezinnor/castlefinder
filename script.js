@@ -768,8 +768,8 @@ function initMap() {
       '<strong><b>Barwara Fort<b></strong><br>\
         <img src="images/barwara/barwara.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
-    lat: 25.1921283, 
-    long: 73.2906314,
+    lat: 26.0493236,
+    long: 76.1577446,
   }
 
   
