@@ -807,7 +807,7 @@ function initMap() {
     info:
       '<strong><b>Shergarh Fort<b></strong><br>\
         <img src="images/shergarh/1.jpg" width="500" height="auto"><br>\
-        <p>Named after Shershah Suri who captured this fort. Original name, Koshvardhan.</p>',
+        <p>Named after Shershah Suri who captured this fort. Original name, Koshvardhan. Built on the banks of river Parvan.</p>',
     lat: 24.7065721,
     long: 76.5415978,
   }
