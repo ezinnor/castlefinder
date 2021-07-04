@@ -803,6 +803,14 @@ function initMap() {
     lat: 11.346000, 
     long: 78.939000,
   }
+  var shergarh = {
+    info:
+      '<strong><b>Shergarh Fort<b></strong><br>\
+        <img src="images/shergarh/1.JPG" width="500" height="auto"><br>\
+        <p>Named after Shershah Suri who captured this fort. Original name, Koshvardhan.</p>',
+    lat: 24.7065721,
+    long: 76.5415978,
+  }
 
 
  
@@ -909,7 +917,8 @@ function initMap() {
     [bhagwatgarh.info, bhagwatgarh.lat, bhagwatgarh.long, 97],
     [vellore.info, vellore.lat, vellore.long, 98],
     [gingee.info, gingee.lat, gingee.long, 99],
-    [ranjankudi.info, ranjankudi.lat, ranjankudi.long, 100]
+    [ranjankudi.info, ranjankudi.lat, ranjankudi.long, 100],
+    [shergarh.info, shergarh.lat, shergarh.long, 101]
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
