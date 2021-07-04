@@ -811,6 +811,14 @@ function initMap() {
     lat: 24.7065721,
     long: 76.5415978,
   }
+  var hamirgarh = {
+    info:
+      '<strong><b>Hamirgarh Fort<b></strong><br>\
+        <img src="images/hamirgarh/1.JPG" width="500" height="auto"><br>\
+        <p>Built by Mewari King Hamir Singh, Square in shape.</p>',
+    lat: 25.1869931,
+    long: 74.6338472,
+  }
 
 
  
@@ -918,7 +926,8 @@ function initMap() {
     [vellore.info, vellore.lat, vellore.long, 98],
     [gingee.info, gingee.lat, gingee.long, 99],
     [ranjankudi.info, ranjankudi.lat, ranjankudi.long, 100],
-    [shergarh.info, shergarh.lat, shergarh.long, 101]
+    [shergarh.info, shergarh.lat, shergarh.long, 101],
+    [hamirgarh.info, hamirgarh.lat, hamirgarh.long, 102]
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
