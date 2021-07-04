@@ -806,7 +806,7 @@ function initMap() {
   var shergarh = {
     info:
       '<strong><b>Shergarh Fort<b></strong><br>\
-        <img src="images/shergarh/1.JPG" width="500" height="auto"><br>\
+        <img src="images/shergarh/1.jpg" width="500" height="auto"><br>\
         <p>Named after Shershah Suri who captured this fort. Original name, Koshvardhan.</p>',
     lat: 24.7065721,
     long: 76.5415978,
