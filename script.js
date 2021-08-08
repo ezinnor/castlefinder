@@ -670,7 +670,7 @@ function initMap() {
   var kuchaman = {
     info:
       '<strong><b>Kuchaman Fort<b></strong><br>\
-        <img src="images/kuchaman/1.jpg" width="500" height="auto"><br>\
+        <img src="images/kuchaman/2.jpg" width="500" height="auto"><br>\
         <a href="#" text-align="center">Credits</a>',
     lat: 27.153942,
     long: 74.857664,
