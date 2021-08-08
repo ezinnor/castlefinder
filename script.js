@@ -819,6 +819,14 @@ function initMap() {
     lat: 25.1869931,
     long: 74.6338472,
   }
+  var palyatha = {
+    info:
+      '<strong><b>Palayatha Fort<b></strong><br>\
+        <img src="images/palayatha/1.jpg" width="500" height="auto"><br>\
+        <p></p>',
+    lat: 25.150377,
+    long: 76.2329852,
+  }
 
 
  
@@ -927,7 +935,8 @@ function initMap() {
     [gingee.info, gingee.lat, gingee.long, 99],
     [ranjankudi.info, ranjankudi.lat, ranjankudi.long, 100],
     [shergarh.info, shergarh.lat, shergarh.long, 101],
-    [hamirgarh.info, hamirgarh.lat, hamirgarh.long, 102]
+    [hamirgarh.info, hamirgarh.lat, hamirgarh.long, 102],
+    [palyatha.info, palyatha.lat, palyatha.long, 103]
 
   ]
   var map = new google.maps.Map(document.getElementById('map'), {
